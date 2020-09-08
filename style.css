@@ -1,0 +1,39 @@
+.Grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 2px;
+    
+}
+
+.grid {
+    background-color:white;
+    border: 2px solid rgba(29, 32, 180, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+   
+}
+
+.item-2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: darkslateblue;
+    }
+
+.item-6 {
+        grid-column: 3/5;
+        grid-row: 2/3; 
+        background-color: green;
+        }
+
+.item-9 {
+    grid-column: 2/3;
+    grid-row: 3/5; 
+    background-color: orange;
+            }
+.item-10 {
+    grid-column: 4/5;
+    grid-row: 3/5; 
+    background-color: purple;
+                } 
